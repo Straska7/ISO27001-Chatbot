@@ -1,6 +1,24 @@
-fastapi/nuvicorn
+# 🌐 FastAPI et serveur ASGI (Uvicorn)
+fastapi
+uvicorn
+
+# 🗄️ ORM SQLAlchemy Asynchrone
 sqlalchemy
+aiomysql
 asyncpg
-psycopg2-binary
+alembic
+pymysql
+
+# 🔐 Sécurité et cryptographie
+passlib
+passlib[scrypt]  # Utilisation de Scrypt au lieu de Bcrypt
+cryptography
+
+# 🔑 Authentification JWT
+pyjwt
+
+# 🔧 Gestion des variables d’environnement
 python-dotenv
-python-dotenv
+
+# ⚙️ Gestion des événements asynchrones
+greenlet

@@ -1,0 +1,19 @@
+# 🛑 Fichiers sensibles
+.env
+alembic.ini
+
+# 🛑 Fichiers de compilation Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 🛑 Dossier des dépendances virtuelles
+venv/
+
+# 🛑 Configurations spécifiques aux éditeurs
+.idea/
+.vscode/
+
+# 🛑 Dossiers liés aux migrations
+migrations/
+.DS_Store
